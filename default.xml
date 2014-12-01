@@ -519,14 +519,30 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-12.0" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.0" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-12.0" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-12.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-12.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-12.0" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-12.0" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="cm" revision="cm-12.0" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" revision="cm-12.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-12.0" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" remote="cm" revision="cm-12.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cm" revision="cm-12.0" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" revision="cm-12.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-12.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="cm" revision="cm-12.0" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="cm-12.0" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="cm" revision="cm-12.0" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" revision="cm-12.0" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" revision="cm-12.0" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-12.0" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" revision="cm-12.0" />
+  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="cm" revision="cm-12.0" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="cm" revision="cm-12.0" />
+  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" revision="cm-12.0" />
 </manifest>
