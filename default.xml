@@ -518,4 +518,15 @@
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
+
+  <!-- Extra qcom related packages -->
+  <project path="external/ant-wireless/ant_native" name="AndroidOpenDevelopment/android_external_ant-wireless_ant_native" remote="github" revision="lp" />
+  <project path="external/ant-wireless/ant_service" name="AndroidOpenDevelopment/android_external_ant-wireless_ant_service" remote="github" revision="lp" />
+  <project path="external/ant-wireless/antradio-library" name="AndroidOpenDevelopment/android_external_ant-wireless_antradio-library" remote="github" revision="lp" />
+  <project path="external/bson" name="AndroidOpenDevelopment/android_external_bson" remote="github" revision="lp" />
+  <project path="external/connectivity" name="AndroidOpenDevelopment/android_external_connectivity" remote="github" revision="lp" />
+  <project path="external/crda" name="AndroidOpenDevelopment/android_external_crda" remote="github" revision="lp" />
+  <project path="external/curl" name="AndroidOpenDevelopment/android_external_curl" remote="github" revision="lp" />
+  <project path="external/ebtables" name="AndroidOpenDevelopment/android_external_ebtables" remote="github" revision="lp" />
+  <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
 </manifest>
