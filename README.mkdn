@@ -1,0 +1,43 @@
+AndroidOpenDevelopment
+===========
+
+AndroidOpenDevelopment is meant to be an AOSP/CAF base with hardware support for various OEM chipsets
+such as QCOM OMAP Tegra, etc, without any additional feature support.
+
+It is hoped that various community ROMs will submit patches from upstream sources for basic hardware
+support eliminating the need for each ROM to do all the extra work, thereby bringing COMMUNITY back
+to android
+
+Submitting Patches
+------------------
+Patches are always welcome!  Please submit your patches via AndroidOpenDevelopment Gerrit!
+You can do this by using these commands:
+
+    (From root android directory)
+    . build/envsetup.sh
+
+    repo start lp .
+    (Make your changes and commit)
+    repo upload .
+Note: "." meaning current directory
+For more help on using this tool, use this command: repo help upload
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
+Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit [AndroidOpenDevelopment Code Review](http://review.androidopendevelopemnt.com/)
+
+
+Getting Started
+---------------
+
+To get started with AndroidOpenDevelopment, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the AndroidOpenDevelopment trees, use a command like this:
+
+    repo init -u git://github.com/AndroidOpenDevelopment/android.git -b lp
+
+Then to sync up:
+
+    repo sync

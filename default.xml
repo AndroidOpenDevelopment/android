@@ -2,14 +2,21 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.androidopendevelopment.com" />
+
   <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="AndroidOpenDevelopment/android_build" groups="pdk,tradefed" remote="github" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
