@@ -518,6 +518,28 @@
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-12.0" />
+  <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" remote="github" revision="cm-12.0" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-12.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-12.0" />
+  <project path="external/heimdall" name="CyanogenMod/android_external_heimdall" remote="github" revision="cm-12.0" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="github" revision="cm-12.0" />
+  <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="github" revision="cm-12.0" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="github" revision="cm-12.0" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-12.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-12.0" />
+  <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-12.0" />
+  <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" remote="github" revision="cm-12.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-12.0" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-12.0" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-12.0" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-12.0" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="github" revision="cm-12.0" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="github" revision="cm-12.0" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="github" revision="cm-12.0" />
+  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="github" revision="cm-12.0" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="github" revision="cm-12.0" />
+  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="github" revision="cm-12.0" />
 
   <!-- Extra qcom related packages -->
   <project path="device/qcom/common" name="AndroidOpenDevelopment/android_device_qcom_common" remote="github" revision="lp" />
