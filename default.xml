@@ -3,11 +3,11 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
+           review="https://android-review.googlesource.com" />
 
   <remote  name="github"
            fetch=".."
-           review="review.androidopendevelopment.com" />
+           review="http://review.androidopendevelopment.com" />
 
   <default revision="refs/tags/android-5.0.0_r7"
            remote="aosp"
@@ -516,4 +516,14 @@
 
   <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.0" />
+  <project path="external/bson" name="CyanogenMod/android_external_bson" remote="cm" revision="cm-12.0" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" revision="cm-12.0" />
+  <project path="external/crda" name="CyanogenMod/android_external_crda" remote="cm" revision="cm-12.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="cm" revision="cm-12.0" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="cm" revision="cm-12.0" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" revision="cm-12.0" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" revision="cm-12.0" />
 </manifest>
