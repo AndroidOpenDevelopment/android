@@ -516,5 +516,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-
+  <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="aod" revision="lp-new" />
 </manifest>
