@@ -16,7 +16,6 @@
   <project path="build" name="AndroidOpenDevelopment/android_build" groups="pdk,tradefed" remote="github" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -514,6 +513,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
+  <!-- AOD specifis -->
+  <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.0" />
+
+  <!-- Optional tools -->
+  <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
 </manifest>
