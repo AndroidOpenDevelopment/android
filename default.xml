@@ -400,6 +400,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="AndroidOpenDevelopment/android_packages_apps_Stk" remote="github" revision="lp" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" revision="master" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="AndroidOpenDevelopment/android_packages_apps_UnifiedEmail" remote="github" revision="lp" />
   <project path="packages/apps/VoiceDialer" name="AndroidOpenDevelopment/android_packages_apps_VoiceDialer" remote="github" revision="lp" />
