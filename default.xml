@@ -493,7 +493,7 @@
   <project path="system/core" name="AndroidOpenDevelopment/android_system_core" groups="pdk" remote="github" revision="lp" />
   <project path="system/extras" name="AndroidOpenDevelopment/android_system_extras" groups="pdk" remote="github" revision="lp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="AndroidOpenDevelopment/android_system_media" groups="pdk" remote="github" revision="lp" />
   <project path="system/netd" name="AndroidOpenDevelopment/android_system_netd" groups="pdk" remote="github" revision="lp" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
@@ -529,4 +529,5 @@
   <project path="external/curl" name="AndroidOpenDevelopment/android_external_curl" remote="github" revision="lp" />
   <project path="external/ebtables" name="AndroidOpenDevelopment/android_external_ebtables" remote="github" revision="lp" />
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
+  <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
 </manifest>
