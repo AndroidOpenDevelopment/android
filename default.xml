@@ -74,7 +74,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="AndroidOpenDevelopment/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="lp" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -284,8 +284,8 @@
   <project path="external/zlib" name="AndroidOpenDevelopment/android_external_zlib" groups="pdk" remote="github" revision="lp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="AndroidOpenDevelopment/android_frameworks_av" groups="pdk" remote="github" revision="lp" />
+  <project path="frameworks/base" name="AndroidOpenDevelopment/android_frameworks_base" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -294,7 +294,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="frameworks/native" name="AndroidOpenDevelopment/android_frameworks_native" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -307,13 +307,13 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="AndroidOpenDevelopment/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="AndroidOpenDevelopment/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lp" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/vcard" name="AndroidOpenDevelopment/android_frameworks_opt_vcard" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
@@ -339,16 +339,25 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="AndroidOpenDevelopment/android_hardware_invensense" groups="invensense" remote="github" revision="lp" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" name="AndroidOpenDevelopment/android_hardware_libhardware" groups="pdk" remote="github" revision="lp" />
+  <project path="hardware/libhardware_legacy" name="AndroidOpenDevelopment/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <project path="hardware/qcom/audio/default" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lp-caf-8974" />
+  <project path="hardware/qcom/bt" name="AndroidOpenDevelopment/android_hardware_qcom_bt" groups="qcom" remote="github" revision="lp" />
+  <project path="hardware/qcom/display" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp" />
+  <project path="hardware/qcom/display-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_display" groups="qcom,qcom_display" remote="github" revision="lp-caf-8974" />
+  <project path="hardware/qcom/gps" name="AndroidOpenDevelopment/android_hardware_qcom_gps" groups="qcom" remote="github" revision="lp" />
+  <project path="hardware/qcom/keymaster" name="AndroidOpenDevelopment/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="lp" />
+  <project path="hardware/qcom/media/default" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8226" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8226" />
+  <project path="hardware/qcom/media-caf/msm8974" name="AndroidOpenDevelopment/android_hardware_qcom_media" groups="qcom" remote="github" revision="lp-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
@@ -356,7 +365,7 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="AndroidOpenDevelopment/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="lp" />
   <project path="hardware/ril" name="AndroidOpenDevelopment/android_hardware_ril" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
@@ -366,7 +375,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
+  <project path="packages/apps/Bluetooth" name="AndroidOpenDevelopment/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -538,5 +547,7 @@
   <project path="external/curl" name="AndroidOpenDevelopment/android_external_curl" remote="github" revision="lp" />
   <project path="external/ebtables" name="AndroidOpenDevelopment/android_external_ebtables" remote="github" revision="lp" />
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
+  <project path="frameworks/opt/bluetooth" name="AndroidOpenDevelopment/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="github" revision="lp" />
+  <project path="packages/apps/BluetoothExt" name="AndroidOpenDevelopment/android_packages_apps_BluetoothExt" remote="github" revision="lp" />
   <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
 </manifest>
