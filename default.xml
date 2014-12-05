@@ -124,7 +124,7 @@
   <project path="external/dnsmasq" name="AndroidOpenDevelopment/android_external_dnsmasq" groups="pdk" remote="github" revision="lp" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="AndroidOpenDevelopment/android_external_e2fsprogs" groups="pdk" remote="github" revision="lp" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -137,7 +137,7 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/flac" name="AndroidOpenDevelopment/android_external_flac" groups="pdk" remote="github" revision="lp" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="AndroidOpenDevelopment/android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="lp" />
@@ -496,7 +496,7 @@
   <project path="system/media" name="AndroidOpenDevelopment/android_system_media" groups="pdk" remote="github" revision="lp" />
   <project path="system/netd" name="AndroidOpenDevelopment/android_system_netd" groups="pdk" remote="github" revision="lp" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="AndroidOpenDevelopment/android_system_vold" groups="pdk" remote="github" revision="lp" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
