@@ -322,7 +322,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="AndroidOpenDevelopment/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -338,7 +338,7 @@
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/invensense" name="AndroidOpenDevelopment/android_hardware_invensense" groups="invensense" remote="github" revision="lp" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
@@ -357,11 +357,11 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="hardware/ril" name="AndroidOpenDevelopment/android_hardware_ril" groups="pdk" remote="github" revision="lp" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="hardware/ti/omap4xxx" name="AndroidOpenDevelopment/android_hardware_ti_omap4xxx" groups="omap4" remote="github" revision="lp" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -518,6 +518,13 @@
 
   <!-- Optional tools -->
   <project path="external/busybox" name="AndroidOpenDevelopment/android_external_busybox" remote="github" revision="lp" />
+
+  <!-- power hal -->
+  <project path="hardware/cm" name="AndroidOpenDevelopment/android_hardware_cm" remote="github" revision="lp" />
+
+  <!-- Extra ti packages -->
+  <project path="hardware/ti/wlan" name="AndroidOpenDevelopment/android_hardware_ti_wlan" remote="github" revision="lp" />
+  <project path="hardware/ti/wpan" name="AndroidOpenDevelopment/android_hardware_ti_wpan" remote="github" revision="lp" />
 
   <!-- Extra qcom related packages -->
   <project path="device/qcom/common" name="AndroidOpenDevelopment/android_device_qcom_common" remote="github" revision="lp" />
