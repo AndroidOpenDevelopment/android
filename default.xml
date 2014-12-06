@@ -543,7 +543,6 @@
   <project path="external/ant-wireless/antradio-library" name="AndroidOpenDevelopment/android_external_ant-wireless_antradio-library" remote="github" revision="lp" />
   <project path="external/bson" name="AndroidOpenDevelopment/android_external_bson" remote="github" revision="lp" />
   <project path="external/connectivity" name="AndroidOpenDevelopment/android_external_connectivity" remote="github" revision="lp" />
-  <project path="external/crda" name="AndroidOpenDevelopment/android_external_crda" remote="github" revision="lp" />
   <project path="external/curl" name="AndroidOpenDevelopment/android_external_curl" remote="github" revision="lp" />
   <project path="external/ebtables" name="AndroidOpenDevelopment/android_external_ebtables" remote="github" revision="lp" />
   <project path="external/protobuf-c" name="AndroidOpenDevelopment/android_external_protobuf-c" remote="github" revision="lp" />
