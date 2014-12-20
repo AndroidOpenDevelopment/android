@@ -9,7 +9,7 @@
            fetch=".."
            review="review.androidopendevelopment.com" />
 
-  <default revision="refs/tags/android-5.0.1_r1"
+  <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
 
