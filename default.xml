@@ -357,7 +357,8 @@
   <project path="hardware/ti/omap4xxx" name="AndroidOpenDevelopment/android_hardware_ti_omap4xxx" groups="omap4" remote="github" revision="lp" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-  <project path="ndk" name="platform/ndk" />
+  <project path="manifest" name="platform/ndk" />
+  <project path="ndk" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="AndroidOpenDevelopment/android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="github" revision="lp" />
   <project path="packages/apps/Browser" name="AndroidOpenDevelopment/android_packages_apps_Browser" remote="github" revision="lp" />
