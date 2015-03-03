@@ -505,7 +505,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- AOD specifis -->
+  <!-- AOD specifics -->
   <project path="android" name="AndroidOpenDevelopment/android" remote="github" revision="lp" />
   <project path="vendor/aod" name="AndroidOpenDevelopment/android_vendor_aod" remote="github" revision="lp" />
 
