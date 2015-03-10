@@ -532,6 +532,6 @@
   <project path="packages/apps/BluetoothExt" name="AndroidOpenDevelopment/android_packages_apps_BluetoothExt" remote="github" revision="lp" />
   <project path="system/qcom" name="AndroidOpenDevelopment/android_system_qcom" groups="qcom" remote="github" revision="lp" />
 
-  <!-- Miscellaneous -->
+  <!--Miscellaneous-->
   <project path="development" name="AndroidOpenDevelopment/android_development" remote="github" revision="lp" />
 </manifest>
